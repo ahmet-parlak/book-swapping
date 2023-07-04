@@ -1,0 +1,105 @@
+.book-img{
+    max-width: 140px;
+    background: transparent  url("../spinner/spinner.svg") no-repeat scroll center center;
+}
+.author, .publisher, .year, .isbn{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.author>span, .publisher>span, .year>span, .isbn>span{
+    font-weight: 100;
+}
+.author>span:hover, .publisher>span:hover{
+    text-decoration: underline;
+}
+
+.in-swap{
+    font-size: medium;
+    font-weight: bold;
+  
+}
+.in-swap svg{
+    width: 12% !important;
+}
+.in-swap span{
+    font-weight: bold;
+    font-size:large;
+    border-radius: 50%;
+    padding: 1%;
+    background-color: #ebe7e7;
+    cursor: default;
+    user-select: none;
+    min-width: 30px;
+    text-align: center;
+}
+
+
+.bookmark-heart-icon>svg{
+    width: 200% !important;
+    height: auto !important;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bookmark-heart-icon>svg:hover{
+    width: 180% !important;
+    height: auto !important;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.add-bookshelf-icon>svg{
+    width: 80%;
+    height: auto;
+    cursor: pointer;
+    transition: 0.4s;
+    padding-top: 20%;
+}
+.in-bookshelf-icon>svg{
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+    transition: 0.4s;
+    padding-top: 20%;
+}
+
+.btn-primary{
+    background-color: #030303;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0%;
+    padding: 2% 3% ;
+    transition: .2s;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #030303f6;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .2s;
+  }
+
+
+.user-pp img{
+    border: 2px solid #030303f6;
+    border-radius: 50%;
+    background: transparent  url("../spinner/spinner.svg") no-repeat scroll center center;
+    width: 60px;
+    height: 60px;
+}
+
+.user,.city{
+    font-weight:900;
+    margin: auto;
+}
+.user a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

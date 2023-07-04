@@ -1,0 +1,193 @@
+.header {
+    font-size: 30px;
+    font-weight: 900;
+    margin: auto;
+    padding-right: 40px;
+}
+
+.trade-icon>a>svg {
+    width: 100px;
+    height: auto;
+}
+
+.trade-icon>svg {
+    width: 100px;
+    height: auto;
+}
+
+.trade-count span {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ebe7e7;
+    border-radius: 50%;
+    padding: 8px 18px;
+}
+
+.user-pp img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #030303f6;
+    border-radius: 50%;
+    background: transparent url("../spinner/spinner.svg") no-repeat scroll center center;
+}
+
+.message-user-pp img {
+    width: 84px;
+    height: 84px;
+    border-radius: 5px;
+    border: 2px solid #030303;
+    background: transparent url("../spinner/spinner.svg") no-repeat scroll center center;
+}
+
+.user-pp span {
+    display: block;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.user-pp span:hover {
+    text-decoration: underline;
+}
+
+
+.trade-number {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.trade-number:hover {
+    text-decoration: underline;
+}
+
+.trade-date span {
+    font-size: larger;
+    font-weight: normal;
+}
+
+.trade-state button {
+    min-width: 80%;
+    height: auto;
+    padding: 6% 10%;
+}
+
+.trade-state.disabled button {
+    background-color: #030303;
+}
+
+.trade-state.done svg {
+    width: 30%;
+    height: auto;
+}
+
+.cancel-trade button {
+    min-width: 85px;
+    min-height: 35px;
+    background-color: #ebe7e7;
+    padding: 4%;
+}
+
+.cancel-trade button:hover {
+    background-color: #ebe7e7;
+}
+
+.cancel-trade button svg {
+    width: 45%;
+    height: auto;
+}
+
+
+.btn-primary {
+    background-color: #030303;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0%;
+    padding: 2% 3%;
+    transition: .2s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #030303f6;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .2s;
+}
+
+.trade-info {
+    min-width: 120px !important;
+}
+
+
+section.message {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.message-header {
+    text-align: center;
+}
+
+.text-box {
+    border-radius: 15px;
+    background-color: #ebe7e7;
+    padding: 10px;
+
+}
+.date{
+    font-size: small;
+}
+textarea {
+    margin-top: 5px;
+    resize: none;
+    border-radius: 5px;
+    background-color: #ebe7e7;
+    padding: 20px;
+}
+
+.send-btn {
+    display: block;
+    margin: auto;
+    padding: 6px 15px;
+    margin-top: 10px;
+}
+
+#messages-box {
+    max-height: 500px;
+    overflow-x: visible;
+    overflow-y: scroll;
+}
+
+#messages-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+#messages-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+#messages-box::-webkit-scrollbar-thumb {
+    background: #030303;
+    border-radius: 10px;
+}
+
+#messages-box::-webkit-scrollbar-thumb:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
+}
+
+
+.footer {
+    margin-top: 50;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

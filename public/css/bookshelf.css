@@ -1,0 +1,124 @@
+
+.header{
+    font-size: xx-large;
+    font-weight:900;
+    margin: auto;
+}
+
+.bookshelf-icon>svg{
+    width: 100px;
+    height: auto;
+}
+
+img.book-img{
+    width: 95px;
+    height: 140px;
+    transition: 0.5s;
+    background: transparent  url("../spinner/spinner.svg") no-repeat scroll center center;
+}
+/* img.book-img:hover{
+    width: 100px;
+    height: 145px;
+    transition: 0.5s;
+} */
+.book-name{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.book-name:hover{
+    text-decoration: underline; 
+}
+
+.author, .publisher, .isbn{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.author>span, .publisher>span, .isbn>span{
+    font-weight: 100;
+}
+.author>span:hover, .publisher>span:hover{
+    text-decoration: underline;
+}
+
+.in-swap{
+    font-size: medium;
+    font-weight: bold;   
+}
+.in-swap svg{
+    width: 35% !important;
+}
+.in-swap span{
+    font-weight: bold;
+    font-size: larger;
+    border: 1px solid #ebe7e7 ;
+    border-radius: 50%;
+    padding: 3%;
+    background-color: #ebe7e7;
+    cursor: default;
+    user-select: none;
+    min-width: 30px;
+    text-align: center;
+}
+
+
+.add-book img{
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+
+.book-state button{
+    min-width: 80%;
+    height: auto;
+    padding: 6% 10%;
+}
+.book-state.disabled button{
+    background-color: #030303;
+}
+.book-state.enabled button{
+    background-color: #ebe7e7;
+    color: #030303;
+    font-weight: bold;
+}
+
+.remove-book{
+    cursor: pointer;
+    width: 70px;
+}
+
+.remove-book svg{
+    width: 48px;
+    height: 48px;
+}
+
+
+
+
+.btn-primary{
+    background-color: #030303;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0%;
+    padding: 2% 3% ;
+    transition: .2s;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #030303f6;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .2s;
+  }
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

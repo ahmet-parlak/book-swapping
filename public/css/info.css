@@ -1,0 +1,17 @@
+.header{
+    color: #030303;
+}
+#banner{
+    width: 12%;
+    height: auto;
+}
+.bookstore-icon>svg, .bookshelf-icon>svg, .swap-icon>svg{
+    width: 100px;
+    height: auto;
+}
+.content{
+    padding-left: 15%;
+}
+.space{
+    height: 100px;
+}

@@ -1,0 +1,153 @@
+.search-input,
+.search-btn {
+    border-radius: 0%;
+    border: none;
+}
+
+.search-input:focus,
+.search-btn {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.search-btn {
+    background-color: whitesmoke;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+.search-form svg {
+    width: 50px !important;
+    height: auto;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+img.book-img {
+    width: 100px;
+    height: 155px;
+    transition: 0.5s;
+    background: transparent url("../spinner/spinner.svg") no-repeat scroll center center;
+}
+
+/* img.book-img:hover{
+    width: 105px;
+    height: 160px;
+    transition: 0.5s;
+} */
+
+.book-name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.book-name:hover {
+    text-decoration: underline;
+}
+
+.author,
+.publisher,
+.isbn {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.author>span,
+.publisher>span,
+.isbn>span {
+    font-weight: 100;
+}
+
+.author>span:hover,
+.publisher>span:hover {
+    text-decoration: underline;
+}
+
+.in-swap {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.in-swap svg {
+    width: 30px !important;
+}
+
+.in-swap span {
+    font-weight: bold;
+    font-size: larger;
+    border: 1px solid #ebe7e7;
+    border-radius: 50%;
+    padding: 3%;
+    background-color: #ebe7e7;
+    cursor: default;
+    user-select: none;
+    min-width: 30px;
+    text-align: center;
+}
+
+.add-favorites-icon>svg,
+.book-box-icon {
+    width: 30px !important;
+    height: auto !important;
+    cursor: pointer;
+}
+
+.add-bookshelf-icon>svg {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.add-bookshelf-icon>svg:hover,
+.bookmark-heart-icon>svg:hover {
+    cursor: pointer;
+}
+
+.in-bookshelf-icon>svg {
+    width: 30px;
+    height: auto;
+}
+
+
+.footer {
+    margin-top: 200px;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+}
+
+
+
+/* Add Book */
+
+form.addBook-form {
+    margin: auto;
+}
+
+form.addBook-form input {
+    margin: auto;
+    width: 75%;
+}
+
+#isbnInput {
+    display: inline;
+}
+
+span.question-mark {
+    position: absolute;
+    padding-top: 0.25%;
+    padding-left: 0.35%;
+    cursor: pointer;
+}
+
+input[type=number].addBook::-webkit-inner-spin-button,
+input[type=number].addBook::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

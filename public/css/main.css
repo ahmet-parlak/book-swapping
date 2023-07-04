@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&display=swap');
+
+*,
+body {
+    font-family: 'Merriweather', serif;
+    user-select: none;
+
+}
+
+html,
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+input,
+select {
+    box-shadow: none !important;
+}
+
+button:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+input:focus,
+select:focus {
+    border-color: #030303 !important;
+}
+
+/* ################### Navbar ################### */
+.navbar {
+    background-color: #EBE7E7 !important;
+}
+
+.nav-btn {
+    text-align: center;
+    padding: 12px 14px;
+    background-color: #030303;
+    color: white;
+    margin-right: 2em;
+    min-width: 80px;
+}
+
+.nav-btn:hover {
+    background-color: #030303;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .2s;
+}
+
+a.mytrades>svg {
+    width: 64px;
+    height: auto;
+}
+
+a.bookshelf>svg {
+    width: 60px;
+    height: auto;
+}
+
+a.panel>svg {
+    width: 60px;
+    height: auto;
+}
+
+.nav-user-pp img {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #030303;
+    background: transparent url("../spinner/spinner.svg") no-repeat scroll center center;
+
+}
+
+.nav-user-pp img:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .2s;
+}
+
+.nav-user-pp>span {
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.dropdown-menu {
+    border-radius: 0%;
+    background-color: #f5f5f5;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #EBE7E7;
+}
+
+.dropdown-item svg {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0%;
+    margin-left: 10px;
+}
+
+/************** Notifications **************/
+.bell-badge {
+    left: 35px;
+    top: 10px;
+}
+
+.nav-notifications svg:hover {
+    width: 95%;
+    transition: .2s;
+}
+
+.notifications-menu {
+    position: absolute;
+    left: -150px !important;
+    width: 400px !important;
+}
+
+.notifications-menu>li {
+    position: static;
+    margin: 0;
+}
+
+.not-dropdown-item:hover {
+    background-color: #EBE7E7;
+}
+
+.not-user-pp img {
+    margin: auto;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #030303;
+    background: transparent url("../spinner/spinner.svg") no-repeat scroll center center;
+
+}
+
+span.mark-as-read {
+    display: block;
+    font-size: x-small;
+    margin: 0;
+    margin-top: 2px;
+}
+
+span.mark-as-read:hover {
+    text-decoration: underline;
+}
+
+div.clear-notifications{
+    font-size: small;
+    cursor: pointer;
+}
+div.clear-notifications:hover{
+    text-decoration: underline;
+}
+
+/************** Notifications **************/
+
+
+/* Buttons */
+.btn-primary {
+    background-color: #030303;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0%;
+    padding: 12px 14px;
+
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #030303;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+
+/*#Home*/
+#bookswap {
+    margin-bottom: 100px;
+    width: 70%;
+    height: auto;
+    /*  margin-top: 2%;
+    width: 100%;
+    height: 60vh; */
+}
+
+section.main {
+    text-align: center;
+}
+
+section.main>.header {
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+    background-color: #f5f5f5;
+}
+
+
+section.main>.header>p {
+    font-size: 1.3rem;
+    padding-top: 1%;
+}
+
+section.main>.header>p>a {
+    text-decoration: underline;
+    font-size: 1.52rem;
+}
+
+section.main>.header>p>a:hover {
+    text-decoration: none;
+    font-size: 1.54rem;
+    color: #cc0621;
+}
+
+/*Home#*/
+
+
+/* #Sweet Alert */
+.swal-footer,
+.swal-text {
+    text-align: center;
+
+}
+
+
+/* Sweet Alert# */
+
+
+
+.footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}

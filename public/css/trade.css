@@ -1,0 +1,206 @@
+.header {
+    font-size: 30px;
+    font-weight: 900;
+    margin: auto;
+    padding-right: 40px;
+    line-height: 1.3;
+}
+
+.header span {
+    display: block;
+    font-size: medium;
+    font-weight: normal;
+    margin: auto;
+}
+
+div.swap-icon>svg {
+    width: 100px;
+    height: 100px;
+}
+
+.user-pp img {
+    width: 80px;
+    height: 75px;
+    border-radius: 5px;
+    border: 2px solid #030303;
+    background: transparent url("../spinner/spinner.svg") no-repeat scroll center center;
+}
+
+.user-pp span {
+    text-align: center;
+    display: block;
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.book-img img {
+    width: 40px;
+    height: 60px;
+}
+
+.book-name {
+    font-size: large;
+}
+
+.remove-book svg {
+    width: 36px;
+    height: auto;
+}
+
+.remove-book svg:hover {
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    transition: .2s;
+}
+
+.add-book svg {
+    width: 24px;
+    height: auto;
+}
+
+/* .add-book svg:hover {
+    cursor: pointer;
+    width: 28px;
+    height: auto;
+    transition: .2s;
+} */
+
+.cancel-button {
+    background-color: #cc0021;
+}
+
+.confirm-button {
+    background-color: rgb(9, 134, 9);
+}
+
+.done-button {
+    background-color: #030303;
+}
+
+.order-button:hover,
+.confirm-button:hover,
+.cancel-button:hover,
+.done-button:hover {
+    background-color: #ebe7e7;
+    color: black;
+    font-weight: bold;
+}
+
+.cancel-button.cancelled:hover {
+    background-color: #cc0021;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.confirm-button.confirmed:hover {
+    background-color: rgb(9, 134, 9);
+    color: #ffffff;
+    font-weight: normal;
+}
+
+
+
+section.message {
+    width: 1020px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px 20px;
+}
+
+.message-header {
+    text-align: center;
+}
+
+.text-box {
+    border-radius: 15px;
+    background-color: #ebe7e7;
+    padding: 10px;
+
+}
+
+textarea {
+    margin-top: 5px;
+    resize: none;
+    border-radius: 5px;
+    background-color: #ebe7e7;
+}
+
+.send-btn {
+    display: block;
+    margin: auto;
+    padding: 6px 15px;
+    margin-top: 10px;
+}
+
+
+table.book-table {
+    width: 80%;
+    margin: auto;
+}
+
+td.img,
+td.btn {
+    width: 10%;
+    vertical-align: middle;
+}
+
+td.name {
+    width: 80%;
+}
+
+tr.selected {
+    background-color: rgba(10, 134, 9, 0.15);
+
+}
+
+/* Trade Offer Form */
+
+input[type='checkbox'] {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+span.update-offer {
+    display: block;
+    width: max-content;
+    margin: auto;
+    margin-top: 10px;
+    color: #030303;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+span.update-offer:hover {
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span.user-name {
+    color: #030303;
+    font-weight: bold;
+}
+
+
+.footer {
+    margin-top: 50;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

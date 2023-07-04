@@ -1,0 +1,76 @@
+.user-pp img{
+    border: 2px solid #030303f6;
+    border-radius: 5%;
+    width: 160px;
+    height: 160px;
+    background: transparent  url("../spinner/spinner.svg") no-repeat scroll center center;
+}
+.user-pp img:hover{
+    cursor: pointer;
+}
+.user{
+    font-size: xx-large;
+}
+
+.edit-box svg{
+    width: 25px;
+    height: auto;
+}
+
+.edit-box{
+    cursor: pointer;
+}
+
+input{
+    padding: 2px 1px 2px 4px;
+}
+input.tel{
+    font-size: large;
+    width: 60% !important;
+    text-align: center !important;
+    margin: auto;
+}
+
+
+.warning{
+    font-size: small;
+    color: #cc0621;
+}
+
+select{
+    width: 150px !important;
+    display: inline;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #030303;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0%;
+    padding: 2% 3% ;
+    transition: .2s;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #030303f6;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .2s;
+  }
+
+.form-control:focus, .form-select:focus{
+    box-shadow: none !important;
+    outline: 0 none !important;
+    border-color: #030303;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

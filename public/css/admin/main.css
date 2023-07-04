@@ -1,0 +1,117 @@
+/* Genel */
+.back-btn {
+    position: absolute;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row-reverse !important;
+
+}
+
+.back-btn>a>svg,
+.back-btn-flex>a>svg {
+    width: 50px;
+    height: auto;
+}
+
+
+/* Panel */
+.users-icon>svg {
+    width: 70%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.books-icon>svg {
+    width: 50%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.users-icon,
+.books-icon {
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.users-icon:hover,
+.books-icon:hover {
+    border: 2px solid black;
+
+}
+
+/* Books */
+.books-info,
+.books-info div {
+    margin: auto;
+}
+
+.books-info span {
+    font-weight: bold;
+    font-size: large;
+}
+
+.books-info svg {
+    width: 24px;
+    height: 24px;
+}
+
+.search input {
+    box-shadow: none !important;
+}
+
+.search input:focus {
+    border-color: black;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+a.edit-icon {
+    padding: 0%;
+    padding-top: 7px;
+}
+
+a.edit-icon>svg {
+    width: 24px;
+    height: auto;
+}
+
+td>a:hover {
+    text-decoration: underline;
+}
+
+
+/* AddBook */
+.addBook-form {
+    margin: auto;
+}
+
+.addBook-form input,
+.addBook-form select {
+    margin: auto;
+    width: 75%;
+}
+
+input[type=number].addBook::-webkit-inner-spin-button,
+input[type=number].addBook::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.book-image>img {
+    max-width: 140px;
+    background: transparent url("../spinner/spinner.svg") no-repeat scroll center center;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,122 @@
+.user-pp img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #030303f6;
+    border-radius: 5%;
+    background: transparent  url("../spinner/spinner.svg")  no-repeat scroll center center ;
+}
+.user{
+    font-size: xx-large;
+}
+.city{
+    font-size: medium;
+}
+.user,.city{
+    font-weight:900;
+    margin: auto;
+}
+
+.envelope-icon{
+    margin-left: 14px;
+}
+
+
+img.book-img{
+    width: 100px;
+    height: 155px;
+    transition: 0.5s;
+    background: transparent  url("../spinner/spinner.svg")  no-repeat scroll center center ;
+
+}
+/* img.book-img:hover{
+    width: 105px;
+    height: 160px;
+    transition: 0.5s;
+} */
+.book-name{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.book-name:hover{
+    text-decoration: underline; 
+}
+
+.author, .publisher, .isbn{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.author>span, .publisher>span, .isbn>span{
+    font-weight: 100;
+}
+.author>span:hover, .publisher>span:hover{
+    text-decoration: underline;
+}
+
+.in-swap{
+    font-size: medium;
+    font-weight: bold;   
+}
+.in-swap svg{
+    width: 36px;
+    height: 36px;
+}
+.in-swap span{
+    font-weight: bold;
+    font-size: larger;
+    border: 1px solid #ebe7e7 ;
+    /* border-radius: 50%; */
+    padding: 2%;
+    background-color: #ebe7e7;
+    cursor: default;
+    user-select: none;
+    min-width: 30px;
+    text-align: center;
+}
+
+.bookmark-heart-icon>svg{
+    width: 35% !important;
+    height: auto !important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bookmark-heart-icon>svg:hover{
+    width: 40% !important;
+    height: auto !important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.btn-primary{
+    background-color: #030303;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0%;
+    padding: 2% 3% ;
+    transition: .2s;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #030303f6;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .2s;
+  }
+
+  .link-btn{
+      min-width: 80px;
+  }
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

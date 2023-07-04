@@ -1,0 +1,132 @@
+.form-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.form-holder .form-content {
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-content .form-items {
+  border: 1.5px solid #c5c1c1;
+  padding: 30px 30px 10px 30px;
+  display: inline-block;
+  width: 100%;
+  min-width: 400px;
+  text-align: left;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.form-content h3 {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+  margin-bottom: 30px;
+}
+
+.form-content p {
+  
+  text-align: left;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+  color: black;
+}
+
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+  width: 100%;
+  padding: 9px 20px;
+  text-align: left;
+  border: 0;
+  outline: 0 !important;
+  border-radius: 6px;
+  background-color: #e9e5e5;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 16px;
+}
+input:focus{
+  box-shadow: none !important;
+  border:none !important;
+  outline: 0 none !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black !important;
+}
+
+
+.form-select,option{
+  cursor: pointer;
+}
+.form-select:focus{
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+.option{
+  cursor: pointer !important;
+  color: rgb(193,193,193) !important;
+}
+
+.mv-up{
+  margin-top: -9px !important;
+  margin-bottom: 8px !important;
+}
+
+
+
+a.password-forgot{
+  padding-left: 5px;
+  font-size: smaller;
+}
+a.password-forgot:hover{
+  text-decoration:underline;
+  text-decoration-style: dotted;
+}
+
+
+/* Validation */
+.invalid-feedback{
+  color: #cc0021;
+  transition: .2s;
+  
+}

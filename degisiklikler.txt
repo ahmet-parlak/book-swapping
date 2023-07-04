@@ -1,0 +1,15 @@
+########### 1 ########### 
+config->database.php->mysql[strict] 
+default => true 
+now => false
+
+
+########### 2 ########### 
+Pagination view dosyaları taşındı (old klasörüne)
+KitapTakas\vendor\laravel\framework\src\Illuminate\Pagination\resources\views
+
+
+########### 3 ########### 
+File -> Preferences -> Settings
+Intelephense › Diagnostics: Undefined Methods
+VS Code pagination'da withPath() metodunu tanımadığı için devredışı
